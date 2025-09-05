@@ -4,8 +4,6 @@ An AI agent framework for power grid dispatch decision-making based on standard 
 
 基于标准预案的电网调度辅助决策智能体框架
 
-> 基于AutoGen + LangGraph + Smolagents的电网设备故障预案辅助决策智能体，实现预案自动解析、执行和报告生成。
-
 ## 项目背景
 
 电网调度中心面对设备故障、运行异常等场景，需要快速依据 标准预案库 做出调度决策。
@@ -15,7 +13,7 @@ An AI agent framework for power grid dispatch decision-making based on standard 
 - 人工计算代入易出错；
 - 缺乏透明可追溯性。
 
-grid-preplan-agent 旨在通过 AutoGen + LangGraph/Smolagents 框架，
+本项目旨在通过 AutoGen + LangGraph/Smolagents 框架，
 实现 预案文本 → JSON Schema → 智能体执行 → 报告输出 的自动化闭环。
 
 ## 项目目标
